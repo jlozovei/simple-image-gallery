@@ -1,0 +1,15 @@
+.header{
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 1px solid $base_dove_grey;
+	padding: 2rem;
+	text-align: center;
+
+	h1{
+		font-size: responsive 1.5rem 1.75rem;
+		font-range: $gridMinWidth $gridMaxWidth;
+		margin-bottom: 1rem;
+	}
+}

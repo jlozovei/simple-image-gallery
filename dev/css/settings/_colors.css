@@ -1,0 +1,203 @@
+/*
+*
+* Base Colors
+*
+*/
+
+$base_white: #FFFFFF;
+$base_grey: #808080;
+$base_blue: #2699d6;
+$base_navy: #2F4A74;
+
+$base_alabaster: #F7F7F7;
+$base_wild_sand: #F6F6F6;
+$base_white_smoke: #F1F1F1;
+$base_polar: #EBF5FB;
+$base_alice_blue: #E8F3FB;
+$base_geyser: #E0E4E7;
+$base_alto: #D4D4D4;
+$base_very_light_grey: #CBCBCB;
+$base_dark_grey: #A5A5A5;
+$base_rit_grey: #A1ADB6;
+$base_grey_half: #7F7F7F;
+$base_dove_grey: #6A6A6A;
+$base_scorpion: #595959;
+$base_tundora: #4b4b4b;
+$base_mine_shaft: #2f2f2f;
+
+
+$base_loblolly: #cad1d6;
+$base_morning_glory: #96C4DC;
+$base_blue_spray: #91d8f1;
+$base_cornflower: #91CBEA;
+$base_regent_grey: #82929E;
+$base_navy_gradient: #637798;
+$base_havelock_blue: #58B0DF;
+$base_viking: #5AB1DF;
+$base_blue_shakespeare: #46ABD3;
+$base_blue_kashmir: #4D6489;
+$base_picton_blue: #2EA6E3;
+$base_san_juan: #2e4b75;
+$base_curious_blue: #2397D4;
+$base_denim: #1577AB;
+
+
+
+
+
+/*
+*
+* Text Colors
+*
+*/
+
+$text_white: $base_white;
+$text_navy: $base_navy;
+$text_grey: $base_grey;
+$text_link: $base_blue;
+$text_blue: $base_curious_blue;
+
+
+
+
+
+/*
+*
+* Footer Colors
+*
+*/
+
+$footer_newsletter_form_bg: $base_navy;
+$footer_early_bg: $base_white_smoke;
+$footer_late_bg: $base_navy;
+
+
+
+
+/*
+*
+* Button Colors
+*
+*/
+
+$button_primary: $base_curious_blue;
+$button_primary_hover: $base_viking;
+$button_primary_active: $base_denim;
+
+$button_white_hover: $base_cornflower;
+$button_white__alt: $base_blue;
+
+
+
+
+/*
+*
+* Form Colors
+*
+*/
+
+$input_border: $base_very_light_grey;
+$input_color: $base_grey_half;
+
+$input_border_hover: $base_scorpion;
+$input_color_hover: $base_scorpion;
+
+$input_border_focus: $base_blue;
+$input_color_focus: $base_blue;
+
+$form_label_color: #828282;
+
+
+
+
+/*
+*
+* Table Colors
+*
+*/
+
+$benefits_table_header_bg: $base_dark_grey;
+$benefits_table_header_bg_active: $base_denim;
+$benefits_table_body_item_border: $base_white_smoke;
+
+$payments_table_thead_bg: $base_white_smoke;
+$payments_table_thead_color: $base_grey;
+$payments_table_row_border: $base_white_smoke;
+$payments_table_country_name_color: $base_dark_grey;
+$payments_table_country_name_color_mobile: $base_san_juan;
+$payments_table_image_link_bg_hover: $base_white_smoke;
+$payments_table_cell_bg_highlight: #E9F4Fa;
+
+
+
+
+/*
+*
+* Icon Colors
+*
+*/
+
+$icon_wrapper_background: $base_alice_blue;
+
+
+
+
+/*
+*
+* Progress Colors
+*
+*/
+
+$progress_color: $base_alice_blue;
+$progress_fill_background: $base_cornflower;
+$progress_bar_background: #2C4468;
+
+
+
+
+/*
+*
+* Carousel Colors
+*
+*/
+
+$carousel_active: $base_cornflower;
+$carousel_dark: $base_very_light_grey;
+
+
+
+
+/*
+*
+* Card Colors
+*
+*/
+
+$card_step_item_color: $base_grey_half;
+$card_step_item_border: $base_white_smoke;
+
+
+$benefits_card_shadow: rgba(0, 0, 0, .5);
+$benefits_card_header_bg: $base_dark_grey;
+$benefits_card_header_bg_active: $base_denim;
+$benefits_card_body_item_border: $base_white_smoke;
+
+
+
+
+/*
+*
+* Shadow Colors
+*
+*/
+
+
+$base_box_shadow: 0 11px 58px -12px rgba(0, 0, 0, .3);
+
+$benefits_table_shadow: rgba(0, 0, 0, .5);
+
+$homePlatformCardShadow: rgba(164, 164, 164, 0.73);
+
+$caseCardShadow: rgba(0, 0, 0, .33);
+
+$carouselSlideShadow: rgba(255, 255, 255, 0),rgba(22, 22, 22, 0.65);
