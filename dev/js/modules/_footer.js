@@ -19,7 +19,7 @@ const _footer = {
 		const curYear = new Date().getFullYear(),
 			url = 'https://jlozovei.github.io/'
 
-		this.footer.querySelector('p').innerHTML = `&copy; <a href="${url}" target="_new" rel="noopener">jlozovei</a> ${curYear}`
+		this.footer.querySelector('p').innerHTML = `with <span class="heart">&#x2764;</span> by <a href="${url}" target="_new" rel="noopener">jlozovei</a> | &copy; ${curYear}`
 	}
 }
 

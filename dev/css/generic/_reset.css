@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
 
 	&:before, &:after{
 		display: none;
@@ -25,10 +26,6 @@ input, textarea, select{ font-size: 100%; appearance: none; }
 textarea{ resize: none; }
 
 ul, ol{ margin: 0; padding: 0; }
-
-h1, h2, h3, h4, h5, h6{ font-family: 'Gilroy', arial, sans-serif; }
-
-p, li, small{ font-family: 'Open sans', arial, sans-serif; }
 
 li { list-style: none; }
 

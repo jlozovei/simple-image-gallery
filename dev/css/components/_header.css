@@ -1,15 +1,35 @@
 .header{
 	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-bottom: 1px solid $base_dove_grey;
+	border-bottom: 1px solid $base_jungle_mist;
 	padding: 2rem;
 	text-align: center;
+
+	&, &__links{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__links{
+		margin-top: 1rem;
+
+		a{
+			font-size: 0;
+			margin: 0 .5rem 0;
+			transition: all $defaultTransitionEasing $defaultTransitionTimeout;
+
+			&:hover{ transform: scale(1.1); }
+		}
+	}
 
 	h1{
 		font-size: responsive 1.5rem 1.75rem;
 		font-range: $gridMinWidth $gridMaxWidth;
 		margin-bottom: 1rem;
+	}
+
+	p{
+		font-size: .875rem;
+		line-height: 1.32;
 	}
 }

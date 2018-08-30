@@ -3,7 +3,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-top: 1px solid $base_dove_grey;
+	border-top: 1px solid $base_jungle_mist;
 	padding: 2rem;
 	text-align: center;
 
@@ -15,7 +15,7 @@
 	a{
 		position: relative;
 		color: $base_denim;
-		font-weight: 600;
+		font-weight: bold;
 		text-decoration: none;
 
 		&:after{
@@ -33,4 +33,6 @@
 			&:after{ width: 100%; }
 		}
 	}
+
+	.heart{ color: $heart; }
 }

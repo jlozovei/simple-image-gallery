@@ -4,9 +4,8 @@
 *
 */
 
-$gilroy: 'Gilroy', arial, sans-serif;
-$openSans: 'Open sans', arial, sans-serif;
-$fontAwesome: 'FontAwesome';
-
 $galleryTransitionEasing: cubic-bezier(0.4, 0, 0.2, 1);
 $galleryTransitionTimeout: 310ms;
+
+$defaultTransitionEasing: ease-in-out;
+$defaultTransitionTimeout: 200ms;

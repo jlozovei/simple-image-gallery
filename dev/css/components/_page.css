@@ -1,5 +1,6 @@
 .page{
 	min-height: 100vh;
+	background-color: $base_polar;
 
 	&, &__content, .container{
 		display: flex;
@@ -9,12 +10,14 @@
 	}
 
 	&__content{
-		padding: 2rem;
+		padding: 2rem 1rem;
 
 		&, .container{
 			flex: 1;
 			height: 100%;
 		}
+
+		@media (--m-sm){ padding: 2rem; }
 	}
 }
 
@@ -22,13 +25,18 @@
 	position: relative;
 
 	&--gallery{
-		width: 90%;
+		width: 100%;
 		max-width: $gridMaxWidth;
 		margin: 0 auto;
 
 		p{
 			margin-top: 1rem;
 			text-align: right;
+		}
+
+		a{
+			color: $base_denim;
+			font-weight: 600;
 		}
 	}
 }
