@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="msapplication-tap-highlight" content="no">
+	<meta name="theme-color" content="#1E78A9">
+	<meta name="msapplication-navbutton-color" content="#1E78A9">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1E78A9">
+	<meta name="pinterest" content="nopin">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/index.css">
+	<title>Simple Image Gallery</title>
+</head>
+<body class="page">
+	<header class="header page__header">
+		<div class="header__title">
+			<h1>Simple Image Gallery</h1>
+			<p>VanillaJS simple+fancy image gallery</p>
+
+			<div class="header__links">
+				<a href="https://jlozovei.github.io/simple-image-gallery" title="See it on GitHub">
+					<img src="./images/github.svg"> See it on GitHub
+				</a>
+
+				<a href="https://codepen.io/jlozovei/pen/eLdzNY" title="See it on Codepen">
+					<img src="./images/codepen.svg"> See it on Codepen
+				</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="page__content">
+		<div class="container container--gallery">
+
+			<div id="gallery" class="gallery">
+				<a class="gallery__controller gallery__controller--prev"></a>
+				<a class="gallery__controller gallery__controller--next"></a>
+
+				<div class="gallery__images">
+					<img src="https://picsum.photos/1000/600/?random" class="active">
+					<img src="https://picsum.photos/780/430/?random">
+					<img src="https://picsum.photos/910/450/?random">
+					<img src="https://picsum.photos/560/1040/?random">
+					<img src="https://picsum.photos/1024/512/?random">
+				</div>
+			</div>
+		
+			<p>random images from <a href="https://picsum.photos/" target="_blank" rel="noopener">https://picsum.photos/</a></p>
+		</div>
+	</div>
+
+	<footer id="footer" class="footer page__footer">
+		<p class="copyright"></p>
+	</footer>
+
+	<script type="application/javascript" src="./js/index.js"></script>
+</body>
+</html>
