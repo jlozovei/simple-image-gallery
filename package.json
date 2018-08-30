@@ -1,0 +1,35 @@
+{
+  "name": "simple-image-gallery",
+  "version": "1.0.0",
+  "description": "VanillaJS simple+fancy image gallery",
+  "main": "index.js",
+  "repository": "https://github.com/jlozovei/simple-image-gallery.git",
+  "author": "Julio Lozovei <jlozovei@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "deploy": "node node_modules/gh-pages/bin/gh-pages-clean.js && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cssnano": "^4.1.0",
+    "gh-pages": "^1.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-connect": "^5.6.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^8.0.0",
+    "postcss-custom-properties": "^7.0.0",
+    "postcss-custom-selectors": "^4.0.1",
+    "postcss-preset-env": "^5.3.0",
+    "precss": "^3.1.2",
+    "rucksack-css": "^1.0.2",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.17.1",
+    "webpack-stream": "^5.1.1"
+  }
+}

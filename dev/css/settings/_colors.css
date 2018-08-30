@@ -1,0 +1,24 @@
+/*
+*
+* Base Colors
+*
+*/
+
+$base_white: #FFFFFF;
+$base_polar: #EBF5FB;
+$base_jungle_mist: #C5D4DC;
+$base_dove_grey: #6A6A6A;
+$base_havelock_blue: #58B0DF;
+$base_denim: #1577AB;
+$heart: #e42931;
+
+
+/*
+*
+* Gallery Colors
+*
+*/
+
+$galleryShadow: rgba(0,0,0,.15);
+$galleryControllerLightGradient: rgba(0, 0, 0, .0001);
+$galleryControllerDarkGradient: rgba(0, 0, 0, .75);
