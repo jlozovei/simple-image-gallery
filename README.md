@@ -2,6 +2,9 @@
 
 No dependencies, no libs, no frameworks - a simple and fancy image gallery, crafted with a few lines of pure JavaScript!  
 
+- [jlozovei.github.io/simple-image-gallery](https://jlozovei.github.io/simple-image-gallery)
+- [codepen.io/jlozovei/simple-image-gallery](https://codepen.io/jlozovei/pen/eLdzNY)
+
 ### How To:
 
 To use this simple gallery, just add the next markups:
