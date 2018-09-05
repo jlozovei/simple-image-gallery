@@ -30,10 +30,10 @@ To use this simple gallery, just add the next markups:
 #### JS:
 ```js
 const galleryWrapper = document.getElementById('gallery'),
-    galleryControllers = galleryWrapper.querySelector('.gallery__controller')
+    galleryControllers = galleryWrapper.querySelectorAll('.gallery__controller')
 
 galleryControllers.forEach(controller => {
-    controller.addEventListener('click', (event) => {
+    controller.addEventListener('click', () => {
         if(controller.classList.contains('gallery__controller--prev'))
             galleryGoBack()
         else
